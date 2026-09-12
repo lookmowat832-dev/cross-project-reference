@@ -21,4 +21,12 @@
 - 未对其他 AI 编程工具执行端到端安装与行为测试。
 - 技能是指导宿主行为的文档，不能保证所有模型、权限环境或任务都表现相同。
 - 本记录不宣称任意参考项目的程序、测试或下载功能已运行成功。
-- GitHub 发布和从远端安装的验证状态，在上传完成后另行补充；本节只记录已经完成的本地验证。
+- 从远端列出技能的结果见下节；尚未在另一台机器上执行完整安装。
+
+## 2026-09-11：公开发布核验
+
+- [公开仓库](https://github.com/lookmowat832-dev/cross-project-reference)已创建并上传；GitHub 元数据确认可见性为 `public`，许可证识别为 `MIT`。
+- [首次完整发布提交](https://github.com/lookmowat832-dev/cross-project-reference/commit/7dc784de24e8fdb02dd45e34dfa72bfcc8455168)包含 9 个文件，远端全部 Git blob 哈希与当时本地发布提交逐一相同。
+- `npx skills add lookmowat832-dev/cross-project-reference --list` 已实际从公开仓库克隆并识别到唯一技能 `cross-project-reference`；仅列出，没有覆盖本机技能安装。
+- 独立匿名访问验证通过：README、SKILL.md、LICENSE、两份参考指南和本验证记录均可公开读取。
+- 本次核验不涉及启动 GitHub Codespaces，也不代表在其他 AI 工具或其他机器上完成运行测试。
