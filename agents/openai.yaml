@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨项目参考"
+  short_description: "按需读取其他本地项目并检索 GitHub，为当前项目提供可追溯的参考"
+  default_prompt: "使用 $cross-project-reference，按我的要求读取指定项目，必要时检索 GitHub，说明当前项目可以借鉴的实现与差异。"
